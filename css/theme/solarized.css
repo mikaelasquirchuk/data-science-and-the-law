@@ -11,12 +11,28 @@ html * {
   color-profile: sRGB;
   rendering-intent: auto; }
 
+h1 {
+  font-size:80px !important;
+}
+
+h5 {
+  margin-bottom:5px !important;
+  text-align: left;
+}
+
+ul, p {
+  color:black;
+  font-size: 22px !important;
+  text-align: left;
+  width:100%;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fdf6e3;
-  background-color: #fdf6e3; }
+  background: #e3dcdf;
+  background-color: #e3dcdf; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -49,7 +65,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #586e75;
+  color: black;
   font-family: "League Gothic", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
