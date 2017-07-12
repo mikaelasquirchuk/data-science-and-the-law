@@ -20,7 +20,7 @@ h5 {
   text-align: left;
 }
 
-ul, p {
+ul, p.text {
   color:black;
   font-size: 22px !important;
   text-align: left;
